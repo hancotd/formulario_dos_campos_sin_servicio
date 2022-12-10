@@ -7,12 +7,16 @@ import { FormularioComponent } from './componentes/formulario/formulario.compone
 
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { MostrarUsuarioComponent } from './mostrar-usuario/mostrar-usuario.component';
+import { UsuarioFormularioComponent } from './usuario-formulario/usuario-formulario.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormularioComponent
+    FormularioComponent,
+    MostrarUsuarioComponent,
+    UsuarioFormularioComponent
   ],
   imports: [
     BrowserModule,
